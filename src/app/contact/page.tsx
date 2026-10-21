@@ -60,17 +60,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="contact-grid">
-                  <div className="contact-item">
-                    <div className="contact-icon">📍</div>
-                    <div>
-                      <h4>Address</h4>
-                      <p>
-                        742 Lotus Blossom Way, Suite 300
-                        <br />
-                        Serenity Valley, CA 90210
-                      </p>
-                    </div>
-                  </div>
+
 
                   <div className="contact-item">
                     <div className="contact-icon">✉️</div>
@@ -84,7 +74,7 @@ export default function ContactPage() {
                     <div className="contact-icon">📞</div>
                     <div>
                       <h4>Phone</h4>
-                      <p>+1 (555) 890-HEAL (4325)</p>
+                      <p>250-574-1442</p>
                     </div>
                   </div>
                 </div>

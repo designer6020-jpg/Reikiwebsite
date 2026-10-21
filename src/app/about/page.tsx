@@ -54,18 +54,25 @@ export default function AboutPage() {
                 A Journey Rooted in Light, Healing, and Compassion
               </h2>
               <p className="about-lead">
-                Welcome. I am Sella, an Usui Reiki Master, Certified Yoga Therapist (E-RYT 500),
-                and Holistic Life Coach dedicated to helping individuals release energetic blockages
-                and rediscover their innate wholeness.
+                Welcome. I am Darshan Gill, I am a reiki master A certified energetic practitioner channel universal life force to heal and restore harmony to your mind, body and spirit to clear blockage, reduce stress, anxiety and promote deep relaxation and restore vitality
               </p>
-              <p className="about-body">
-                My personal journey began over a decade ago after navigating intense burnout and
-                chronic fatigue. Through deep meditation in the foothills of Rishikesh and intensive
-                energy healing studies in Japan, I witnessed first-hand the profound capacity of
-                the human subtle body to regenerate and flourish when given sacred space and loving intention.
+              <p className="about-body mb-1">
+                Shaman healer ( is a spiritual healer who act as a bridge between physical and spiritual worlds)
               </p>
 
-              <div className="about-pillars-grid">
+              <p className="about-body">
+                Clinical Hypnotherapist
+                A clinical hypnotherapist combines evidenced-based psychological techniques with therapeutic hypnosis to treat behavioural, medical and emotional challenges at their root source
+              </p>
+              <p className="about-body">
+                Or
+                A licensed hypnotherapist utilizing therapeutic trance state to help you overcome anxiety, stress, break habits and heal at root source
+              </p>
+              <p className="about-body">
+                Hypno- Reiki
+                An advanced practitioner combining the subconscious rewriting of hypnotherapy with the deep energetic clearing of Reiki to break mental blocks, release trapped physical and mental tension and accelerate your healing from inside out
+              </p>
+              {/* <div className="about-pillars-grid">
                 <div className="pillar-item">
                   <div className="pillar-icon">✦</div>
                   <div>
@@ -94,7 +101,7 @@ export default function AboutPage() {
                     <p>Empowering you with practical rituals for sustainable daily well-being.</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div style={{ marginTop: "32px", display: "flex", gap: "16px", flexWrap: "wrap" }}>
                 <Link href="/contact" className="btn-primary">
@@ -187,7 +194,7 @@ export default function AboutPage() {
               </div>
               <div className="sanctuary-img-box img-2">
                 <Image
-                  src="/yoga-practice.jpg"
+                  src="/person-conducting.jpg"
                   alt="Yoga Movement in Studio"
                   fill
                   sizes="(max-width: 768px) 100vw, 300px"

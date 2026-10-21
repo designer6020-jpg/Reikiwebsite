@@ -73,15 +73,15 @@ const galleryImages = [
     alt: "Healing session",
   },
   {
-    src: "/yoga-practice.jpg",
+    src: "/helping-woman.jpg",
     alt: "Yoga practice",
   },
   {
-    src: "/energy-healing.jpg",
+    src: "/wellness-practices.jpg",
     alt: "Crystal healing",
   },
   {
-    src: "/yoga-practice.jpg",
+    src: "/treating-patient.jpg",
     alt: "Group yoga session",
   },
 ];
@@ -323,18 +323,11 @@ export default function Home() {
             <span className="section-tag">Energy Healing</span>
             <h2 className="section-title">Honour Your Healing Journey</h2>
             <p>
-              With over 15 years of experience as a Reiki Master Teacher and
-              Transformational Life Coach, Celeste Ray creates a compassionate
-              space for healing, supporting you as you explore new
-              possibilities.
-            </p>
-            <p>
-              Whether through life coaching, Reiki training, or healing
-              sessions, Celeste guides you with compassion, helping you embrace
-              your true potential.
+              Fifteen years ago, my life was disrupted by severe, chronic migraines that conventional medicine simply could not resolve. Frustrated but determined, I turned to holistic healing—a decision that ultimately eliminated my headaches entirely. This profound personal transformation inspired me to dedicate my life to the healing arts. Today, I am deeply privileged to guide both human and animal clients on their own journeys toward restored health, balance, and vibrant well-being.
             </p>
 
-            <Link href="/contact" className="btn-primary mt-5">
+
+            <Link href="/about" className="btn-primary mt-5">
               More About Me
             </Link>
           </div>
