@@ -12,8 +12,7 @@ export default function ServicesPage() {
       title: "Usui Reiki Energy Healing",
       badge: "Most Popular",
       desc: "An ancient Japanese gentle touch technique that balances the bio-magnetic energy field, releases emotional trauma, accelerates physical recovery, and restores deep spiritual equilibrium.",
-      duration: "60 / 90 Minutes",
-      price: "$120",
+
       image: "/energy-healing.jpg",
       benefits: [
         "Clears stagnant chi and blocked chakras",
@@ -27,8 +26,7 @@ export default function ServicesPage() {
       title: "Integrative Somatic Yoga",
       badge: "Mind-Body Flow",
       desc: "Tailored one-on-one and small group somatic movement integrating Hatha alignment, Vinyasa breath synchronization, and restorative Yin poses to release physical tension.",
-      duration: "60 Minutes",
-      price: "$95",
+
       image: "/yoga-practice.jpg",
       benefits: [
         "Restores spinal mobility and pelvic stability",
@@ -42,8 +40,7 @@ export default function ServicesPage() {
       title: "7-Chakra Realignment & Sound Bath",
       badge: "Deep Immersion",
       desc: "A multi-sensory vibrational therapy utilizing 432Hz quartz crystal singing bowls, pure essential oils, and focused energy work to tune each of your 7 primary energy centers.",
-      duration: "75 Minutes",
-      price: "$145",
+
       image: "/hero-meditation.jpg",
       benefits: [
         "Harmonizes Root to Crown energy flow",
@@ -150,13 +147,10 @@ export default function ServicesPage() {
                 <div className="service-detail-info">
                   <div className="service-meta-top">
                     <span className="service-badge-pill">{svc.badge}</span>
-                    <span className="service-pricing-tag">
-                      {svc.price} <small>/ session</small>
-                    </span>
+
                   </div>
                   <h3>{svc.title}</h3>
-                  <div className="service-duration-badge">⏱ {svc.duration}</div>
-                  <p className="service-text">{svc.desc}</p>
+
                   <ul className="service-benefits-list">
                     {svc.benefits.map((b, i) => (
                       <li key={i}>✦ {b}</li>
