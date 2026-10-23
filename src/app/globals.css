@@ -2090,29 +2090,106 @@ section[id] {
 /* Inner Page Hero Banner */
 .inner-hero {
   position: relative;
-  padding: 150px 24px 70px;
-  background: linear-gradient(135deg, #fdf8f5 0%, #f7e8ee 50%, #fdf8f5 100%);
+  padding: 170px 24px 90px;
+  background-color: var(--background);
+  background-image: 
+    linear-gradient(
+      180deg,
+      rgba(253, 248, 245, 0.38) 0%,
+      rgba(247, 232, 238, 0.20) 50%,
+      rgba(253, 248, 245, 0.42) 100%
+    ),
+    url('/reiki-hero-bg.jpg');
+  background-position: center 38%;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   border-bottom: 1px solid var(--border-soft);
+  overflow: hidden;
+}
+
+.inner-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 45%, rgba(255, 255, 255, 0.45) 0%, rgba(255, 255, 255, 0.1) 60%, transparent 80%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.inner-hero::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+}
+
+/* Page-specific Reiki thematic backgrounds */
+.inner-hero--about {
+  background-image: 
+    linear-gradient(
+      180deg,
+      rgba(253, 248, 245, 0.35) 0%,
+      rgba(247, 232, 238, 0.18) 50%,
+      rgba(253, 248, 245, 0.40) 100%
+    ),
+    url('/reiki-altar-bg.jpg');
+  background-position: center 42%;
+}
+
+.inner-hero--services {
+  background-image: 
+    linear-gradient(
+      180deg,
+      rgba(253, 248, 245, 0.35) 0%,
+      rgba(247, 232, 238, 0.18) 50%,
+      rgba(253, 248, 245, 0.40) 100%
+    ),
+    url('/reiki-hero-bg.jpg');
+  background-position: center 35%;
+}
+
+.inner-hero--contact {
+  background-image: 
+    linear-gradient(
+      180deg,
+      rgba(253, 248, 245, 0.35) 0%,
+      rgba(247, 232, 238, 0.18) 50%,
+      rgba(253, 248, 245, 0.40) 100%
+    ),
+    url('/reiki-contact-bg.jpg');
+  background-position: center 45%;
 }
 
 .inner-hero-content {
+  position: relative;
+  z-index: 1;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 .inner-hero-title {
-  font-size: 3.2rem;
-  color: var(--primary-dark);
+  font-size: 3.3rem;
+  color: #3b1427;
   margin: 16px 0;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  text-shadow: 0 2px 14px rgba(255, 255, 255, 0.95), 0 1px 4px rgba(255, 255, 255, 0.9);
 }
 
 .inner-hero-desc {
-  font-size: 1.15rem;
-  color: var(--text-medium);
+  font-size: 1.18rem;
+  color: #24141d;
+  font-weight: 500;
   line-height: 1.8;
   margin-bottom: 24px;
+  max-width: 840px;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.95);
 }
 
 .breadcrumbs {
@@ -2121,10 +2198,12 @@ section[id] {
   gap: 10px;
   font-size: 0.9rem;
   color: var(--text-light);
-  background: rgba(255, 255, 255, 0.7);
-  padding: 6px 18px;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  padding: 7px 22px;
   border-radius: var(--radius-full);
-  border: 1px solid var(--border-soft);
+  border: 1px solid rgba(139, 58, 98, 0.15);
+  box-shadow: 0 4px 16px rgba(139, 58, 98, 0.08);
 }
 
 .breadcrumbs a {

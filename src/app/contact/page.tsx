@@ -32,7 +32,7 @@ export default function ContactPage() {
       <Navbar />
 
       {/* ===== INNER HERO BANNER ===== */}
-      <section className="inner-hero">
+      <section className="inner-hero inner-hero--contact">
         <div className="inner-hero-content">
           <div className="hero-badge">Get in Touch</div>
           <h1 className="inner-hero-title">Visit Our Sanctuary</h1>

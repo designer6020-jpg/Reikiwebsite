@@ -11,13 +11,13 @@ export default function AboutPage() {
       <Navbar />
 
       {/* ===== INNER HERO BANNER ===== */}
-      <section className="inner-hero">
+      <section className="inner-hero inner-hero--about">
         <div className="inner-hero-content">
           <div className="hero-badge">Our Story & Purpose</div>
-          <h1 className="inner-hero-title">About Sella & Sacred Healing</h1>
+          <h1 className="inner-hero-title">About Darshan & Sacred Healing</h1>
           <p className="inner-hero-desc">
             Guiding you toward harmony, vitality, and deep inner peace through the timeless
-            wisdom of Reiki energy healing, mindful yoga, and transformational life coaching.
+            wisdom of Usui Reiki energy healing, intuitive clearing, and transformational wellness.
           </p>
           <div className="breadcrumbs">
             <Link href="/">Home</Link>
@@ -35,7 +35,7 @@ export default function AboutPage() {
               <div className="about-large-image-wrapper">
                 <Image
                   src="/hero-meditation1.jpg"
-                  alt="Sella in serene meditative state"
+                  alt="Darshan in serene meditative state"
                   fill
                   sizes="(max-width: 768px) 100vw, 500px"
                   style={{ objectFit: "cover" }}
@@ -167,7 +167,7 @@ export default function AboutPage() {
                 A Peaceful Haven Designed for Stillness
               </h2>
               <p>
-                Nestled away from city clamor, the Sella Sanctuary features warm organic textiles,
+                Nestled away from city clamor, the Inner Healing Sanctuary features warm organic textiles,
                 aromatherapeutic Himalayan salt lamps, therapeutic crystal sound bowls, and natural
                 sunlight that nurtures tranquility from the second you step through our doors.
               </p>

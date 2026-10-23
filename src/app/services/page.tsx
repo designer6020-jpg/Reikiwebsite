@@ -305,7 +305,7 @@ export default function ServicesPage() {
       <Navbar />
 
       {/* ===== INNER HERO BANNER ===== */}
-      <section className="inner-hero">
+      <section className="inner-hero inner-hero--services">
         <div className="inner-hero-content">
           <div className="hero-badge">Sacred Therapies & Reiki Academy</div>
           <h1 className="inner-hero-title">Healing Sessions & Reiki Courses</h1>
