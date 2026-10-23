@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -30,8 +31,16 @@ export default function Navbar() {
           href="/"
           className="nav-logo"
           onClick={() => setMobileMenuOpen(false)}
+          aria-label="Inner Healing School of Reiki - Home"
         >
-          Sella<span>Yoga</span>
+          <Image
+            src="/inner-healing-logo.png"
+            alt="Inner Healing School of Reiki"
+            width={180}
+            height={48}
+            priority
+            className="nav-logo-img"
+          />
         </Link>
 
         {/* Desktop Links */}

@@ -66,7 +66,9 @@ export default function ContactPage() {
                     <div className="contact-icon">✉️</div>
                     <div>
                       <h4>Email</h4>
-                      <p>contact@sellayoga.com</p>
+                      <a href="mailto:contact@innerhealing.com" className="contact-link-val">
+                        contact@innerhealing.com
+                      </a>
                     </div>
                   </div>
 
@@ -74,7 +76,9 @@ export default function ContactPage() {
                     <div className="contact-icon">📞</div>
                     <div>
                       <h4>Phone</h4>
-                      <p>250-574-1442</p>
+                      <a href="tel:250-574-1442" className="contact-link-val">
+                        250-574-1442
+                      </a>
                     </div>
                   </div>
                 </div>

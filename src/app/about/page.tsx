@@ -34,7 +34,7 @@ export default function AboutPage() {
             <div className="about-image-column">
               <div className="about-large-image-wrapper">
                 <Image
-                  src="/hero-meditation.jpg"
+                  src="/hero-meditation1.jpg"
                   alt="Sella in serene meditative state"
                   fill
                   sizes="(max-width: 768px) 100vw, 500px"
@@ -104,9 +104,9 @@ export default function AboutPage() {
               </div> */}
 
               <div style={{ marginTop: "32px", display: "flex", gap: "16px", flexWrap: "wrap" }}>
-                <Link href="/contact" className="btn-primary">
-                  Book a Session with Sella ✦
-                </Link>
+                <a href="tel:250-574-1442" className="btn-primary">
+                  Call Now: 250-574-1442 📞
+                </a>
                 <Link href="/services" className="btn-secondary">
                   Explore Modalities
                 </Link>
@@ -214,9 +214,9 @@ export default function AboutPage() {
             Reserve your personal 1-on-1 energy alignment or private yoga session.
             We look forward to welcoming you into our healing circle.
           </p>
-          <Link href="/contact" className="btn-white">
-            Book Your Session Now ✦
-          </Link>
+          <a href="tel:250-574-1442" className="btn-white">
+            Call Now: 250-574-1442 📞
+          </a>
         </div>
       </section>
 

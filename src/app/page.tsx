@@ -65,7 +65,7 @@ const reikiTabs = [
 
 const galleryImages = [
   {
-    src: "/hero-meditation.jpg",
+    src: "/home-1-9.webp",
     alt: "Meditation in studio",
   },
   {
@@ -88,72 +88,90 @@ const galleryImages = [
 
 const reikiServices = [
   {
-    title: "Chakra Balancing",
-    subtitle: "Energy center alignment",
-    icon: "/chakra-balancing.svg",
-    image: "/treatments-5-1.webp",
-  },
-  {
-    title: "Sound Healing",
-    subtitle: "Restorative sound therapy",
-    icon: "/sound-healing.svg",
-    image: "/treatments-6-1.webp",
-  },
-  {
-    title: "Meditations",
-    subtitle: "Mindfulness and relaxation",
-    icon: "/meditations.svg",
-    image: "/treatments-7-1.webp",
-  },
-  {
-    title: "Energy Healing",
-    subtitle: "Holistic life reset",
+    title: "Usui Reiki Energy Healing",
+    subtitle: "Channeled Japanese bio-energy clearing & primary chakra alignment",
+    price: "$100 / hr",
     icon: "/reiki-healing.svg",
-    image: "/treatments-8-1.webp",
+    image: "/energy-healing.jpg",
+    link: "/services#sessions-section",
   },
   {
-    title: "Life Coaching",
-    subtitle: "Grounded inner calm",
-    icon: "/life-coaching.svg",
+    title: "Hypno-Reiki Integration",
+    subtitle: "Subconscious trance relaxation paired with cellular Reiki clearing",
+    price: "$150 / session",
+    icon: "/mind-icon.png",
+    image: "/treatments-6-1.webp",
+    link: "/services#sessions-section",
+  },
+  {
+    title: "Subconscious Hypnotherapy",
+    subtitle: "Deep emotional root-cause resolution, inner child healing & confidence",
+    price: "$200 / session",
+    icon: "/soul-icon.png",
+    image: "/treating-patient.jpg",
+    link: "/services#sessions-section",
+  },
+  {
+    title: "Shamanic Reiki Sacred Journey",
+    subtitle: "3-hour intensive ceremony with sacred smoke, cord-cutting & drumming",
+    price: "$200 (3 Hours)",
+    icon: "/sound-healing.svg",
+    image: "/hero-meditation1.jpg",
+    link: "/services#sessions-section",
+  },
+  {
+    title: "Distant Home Clearing",
+    subtitle: "Remote quantum space purification, protection shield & blessing",
+    price: "$200 / ceremony",
+    icon: "/chakra-balancing.svg",
     image: "/treatments-4-1.webp",
+    link: "/services#sessions-section",
+  },
+  {
+    title: "Reiki Certification Courses",
+    subtitle: "Accredited First Degree to Master Teacher sacred training & attunements",
+    price: "Levels 1–4 from $300",
+    icon: "/body-icon.png",
+    image: "/home-1-10.webp",
+    link: "/services#courses-section",
   },
 ];
 
 const testimonials = [
   {
     name: "Ananya Kapoor",
-    role: "Wellness Enthusiast",
+    role: "Reiki Client & Mindfulness Advocate",
     initials: "AK",
     quote:
-      "Sella's reiki sessions have completely transformed my life. I came in with chronic anxiety and after just three sessions, I felt a profound shift in my energy and mindset.",
+      "Inner Healing completely transformed my well-being. Darshan's intuitive Reiki sessions helped me release years of accumulated anxiety and chronic tension. After just three sessions at the sanctuary, I felt a profound, grounded shift in my energy and daily mindset.",
   },
   {
     name: "Sarah Mitchell",
-    role: "Yoga Practitioner",
+    role: "Reiki Level 2 Certified Graduate",
     initials: "SM",
     quote:
-      "The yoga classes are incredibly nurturing. Sella creates a safe space where you can truly connect with your body and find inner peace. Highly recommended for everyone.",
+      "Completing my certification with Inner Healing School of Reiki was an empowering experience. Darshan creates a deeply sacred, supportive space where you truly connect with universal life energy and sacred attunements. I cannot recommend this academy enough.",
   },
   {
     name: "Rahul Patel",
-    role: "Business Professional",
+    role: "Executive & Meditation Student",
     initials: "RP",
     quote:
-      "The chakra healing session was an extraordinary experience. I left feeling lighter, more centered, and deeply connected to myself. Sella has a truly special gift.",
+      "The Hypno-Reiki and chakra alignment session at Inner Healing was extraordinary. Darshan has an exceptional gift for identifying and releasing energetic blocks. I walked away feeling lighter, clear-headed, and deeply centered.",
   },
   {
     name: "Maya Chen",
     role: "Creative Director",
     initials: "MC",
     quote:
-      "Every session felt deeply personal and grounding. I left with more clarity, more calm, and a stronger sense of trust in my own path.",
+      "From the moment you connect with Inner Healing Sanctuary, you feel deeply held and supported. Every private session is tailored to your emotional and energetic needs, leaving you with genuine peace and clarity.",
   },
   {
     name: "Daniel Brooks",
-    role: "Entrepreneur",
+    role: "Distant Healing Client & Entrepreneur",
     initials: "DB",
     quote:
-      "I was searching for balance and found it. The combination of Reiki and life coaching helped me rethink my habits and reconnect with what matters most.",
+      "I was amazed by the power of Darshan's remote distance healing and space clearing session. The heaviness in my environment cleared immediately, and the intuitive insights provided lasting guidance for my personal and professional life.",
   },
 ];
 
@@ -244,7 +262,7 @@ export default function Home() {
               <div className="float-icon">✨</div>
               <div>
                 <div className="float-text">Energy Healing</div>
-                <div className="float-subtext">Book Now Available</div>
+                <div className="float-subtext">Call 250-574-1442</div>
               </div>
             </div>
           </div>
@@ -614,23 +632,24 @@ export default function Home() {
       </section>
 
       {/* ===== REIKI SERVICES ===== */}
-      <section className="reiki-services" id="about">
+      <section className="reiki-services" id="reiki-services">
         <div className="reiki-services-header">
           <div>
-            <span className="section-tag">Reiki Services</span>
+            <span className="section-tag">Sanctuary Offerings</span>
             <h2 className="section-title-big">
-              Restore balance through gentle healing
+              Sacred Healing Services & Certification Courses
             </h2>
           </div>
           <Link href="/services" className="btn-primary">
-            Explore all rituals
+            View All Services & Courses ✦
           </Link>
         </div>
 
         <div className="reiki-service-slider">
           <div className="reiki-service-track">
             {[...reikiServices, ...reikiServices].map((service, index) => (
-              <article
+              <Link
+                href={service.link}
                 key={`${service.title}-${index}`}
                 className="reiki-service-card"
               >
@@ -653,12 +672,15 @@ export default function Home() {
                       height={30}
                     />
                   </div>
+                  <div className="reiki-service-price-badge">
+                    {service.price}
+                  </div>
                 </div>
                 <div className="reiki-service-content">
                   <h3>{service.title}</h3>
                   <p>{service.subtitle}</p>
                 </div>
-              </article>
+              </Link>
             ))}
           </div>
         </div>
@@ -715,22 +737,25 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       {/* ===== CTA SECTION ===== */}
       <section className="cta" id="contact">
         <div className="cta-content">
           <h2>Begin Your Healing Journey Today</h2>
           <p>
-            Take the first step towards holistic wellness. Book a personalized
-            session and discover the transformative power of yoga, reiki, and
-            energy healing.
+            Take the first step towards restored balance and inner peace. Book a
+            personalized session or enroll in certified training with Inner Healing
+            School of Reiki.
           </p>
-          <Link href="/contact" className="btn-white">
-            Book a Consultation ✦
-          </Link>
+          <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap", marginTop: "20px" }}>
+            <Link href="/contact" className="btn-white">
+              Book a Session ✦
+            </Link>
+            <a href="tel:250-574-1442" className="btn-outline" style={{ borderColor: "#ffffff", color: "#ffffff" }}>
+              Call 250-574-1442 📞
+            </a>
+          </div>
         </div>
       </section>
-
       {/* ===== FOOTER ===== */}
       <Footer />
     </>
