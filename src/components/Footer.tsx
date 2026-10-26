@@ -90,7 +90,7 @@ export default function Footer() {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/about">About Sella</Link>
+              <Link href="/about">About The Inner Healing</Link>
             </li>
             <li>
               <Link href="/services">Services & Courses</Link>

@@ -43,7 +43,7 @@ export default function TermsOfUsePage() {
               1. Acceptance of Terms
             </h2>
             <p style={{ marginBottom: "24px" }}>
-              By accessing sellayoga.com, booking private sessions, or enrolling in our Reiki courses, you agree to comply with and be bound by these Terms of Use and all applicable laws and regulations.
+              By accessing The Inner Healing website, booking private sessions, or enrolling in our Reiki courses, you agree to comply with and be bound by these Terms of Use and all applicable laws and regulations.
             </p>
 
             <h2 style={{ color: "var(--primary-dark)", fontSize: "1.6rem", marginBottom: "14px" }}>
@@ -64,7 +64,7 @@ export default function TermsOfUsePage() {
               4. Course Certification & Intellectual Property
             </h2>
             <p style={{ marginBottom: "24px" }}>
-              All course manuals, sacred symbol guides, audio recordings, and curriculum materials provided during training are the intellectual property of Sella and are intended solely for personal practice and professional client delivery as accredited. Materials may not be duplicated or republished without prior written permission.
+              All course manuals, sacred symbol guides, audio recordings, and curriculum materials provided during training are the intellectual property of The Inner Healing and are intended solely for personal practice and professional client delivery as accredited. Materials may not be duplicated or republished without prior written permission.
             </p>
 
             <h2 style={{ color: "var(--primary-dark)", fontSize: "1.6rem", marginBottom: "14px" }}>
@@ -72,8 +72,8 @@ export default function TermsOfUsePage() {
             </h2>
             <p>
               For questions regarding our terms, agreements, or course policies, please contact us at{" "}
-              <a href="mailto:contact@sellayoga.com" style={{ color: "var(--primary)", fontWeight: 600 }}>
-                contact@sellayoga.com
+              <a href="mailto:darshi_gill@yahoo.com" style={{ color: "var(--primary)", fontWeight: 600 }}>
+                darshi_gill@yahoo.com
               </a>{" "}
               or call{" "}
               <a href="tel:250-574-1442" style={{ color: "var(--primary)", fontWeight: 600 }}>

@@ -72,8 +72,8 @@ export default function PrivacyPolicyPage() {
             </h2>
             <p>
               If you have any questions or wish to request the deletion or correction of your stored records, please reach out directly to us at{" "}
-              <a href="mailto:contact@sellayoga.com" style={{ color: "var(--primary)", fontWeight: 600 }}>
-                contact@sellayoga.com
+              <a href="mailto:darshi_gill@yahoo.com" style={{ color: "var(--primary)", fontWeight: 600 }}>
+                darshi_gill@yahoo.com
               </a>{" "}
               or call{" "}
               <a href="tel:250-574-1442" style={{ color: "var(--primary)", fontWeight: 600 }}>

@@ -276,7 +276,7 @@ export default function ServicesPage() {
     },
     {
       q: "How does the Distant Home Clearing and Blessing Ceremony work?",
-      a: "Energy is not bound by physical distance or walls. During a Distant Home Clearing & Blessing Ceremony ($200), Sella connects remotely to the energetic blueprint of your home, apartment, or workspace. Using quantum distance Reiki, elemental clearing, and sacred gridding, heavy or stagnant energies from past tenants, stress, or conflicts are dissolved, and your living space is blessed with high-vibrational peace and protection.",
+      a: "Energy is not bound by physical distance or walls. During a Distant Home Clearing & Blessing Ceremony ($200), The Inner Healing connects remotely to the energetic blueprint of your home, apartment, or workspace. Using quantum distance Reiki, elemental clearing, and sacred gridding, heavy or stagnant energies from past tenants, stress, or conflicts are dissolved, and your living space is blessed with high-vibrational peace and protection.",
     },
     {
       q: "How does Hypno-Reiki combine both modalities?",
@@ -296,7 +296,7 @@ export default function ServicesPage() {
     },
     {
       q: "How do I schedule a session or register for an upcoming course?",
-      a: "You can click any 'Book' or 'Enroll' button to reach our contact page with your selection pre-filled, or call Sella directly at 250-574-1442 to confirm upcoming course calendar dates and private session availability.",
+      a: "You can click any 'Book' or 'Enroll' button to reach our contact page with your selection pre-filled, or call The Inner Healing directly at 250-574-1442 to confirm upcoming course calendar dates and private session availability.",
     },
   ];
 
@@ -540,7 +540,7 @@ export default function ServicesPage() {
               <span className="academy-pillar-icon">💫</span>
               <h4>Lifetime Mentorship</h4>
               <p>
-                Enjoy ongoing access to student Reiki shares, continuing education circles, and personal guidance from Sella whenever questions arise.
+                Enjoy ongoing access to student Reiki shares, continuing education circles, and personal guidance from The Inner Healing whenever questions arise.
               </p>
             </div>
           </div>
