@@ -66,8 +66,8 @@ export default function ContactPage() {
                     <div className="contact-icon">✉️</div>
                     <div>
                       <h4>Email</h4>
-                      <a href="mailto:contact@innerhealing.com" className="contact-link-val">
-                        contact@innerhealing.com
+                      <a href="mailto:darshi_gill@yahoo.com" className="contact-link-val">
+                        darshi_gill@yahoo.com
                       </a>
                     </div>
                   </div>

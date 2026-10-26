@@ -14,7 +14,7 @@ export default function AboutPage() {
       <section className="inner-hero inner-hero--about">
         <div className="inner-hero-content">
           <div className="hero-badge">Our Story & Purpose</div>
-          <h1 className="inner-hero-title">About Darshan & Sacred Healing</h1>
+          <h1 className="inner-hero-title">About Darshan & Reiki Healing</h1>
           <p className="inner-hero-desc">
             Guiding you toward harmony, vitality, and deep inner peace through the timeless
             wisdom of Usui Reiki energy healing, intuitive clearing, and transformational wellness.
@@ -34,7 +34,7 @@ export default function AboutPage() {
             <div className="about-image-column">
               <div className="about-large-image-wrapper">
                 <Image
-                  src="/hero-meditation1.jpg"
+                  src="/about-me.jpg"
                   alt="Darshan in serene meditative state"
                   fill
                   sizes="(max-width: 768px) 100vw, 500px"
@@ -43,7 +43,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="about-experience-badge">
-                <span className="exp-num">12+</span>
+                <span className="exp-num">15+</span>
                 <span className="exp-text">Years of Spiritual Practice & Healing Mastery</span>
               </div>
             </div>
@@ -97,8 +97,8 @@ export default function AboutPage() {
                 <div className="pillar-item">
                   <div className="pillar-icon">🕊️</div>
                   <div>
-                    <h4>Mindful Coaching</h4>
-                    <p>Empowering you with practical rituals for sustainable daily well-being.</p>
+                    <h4>Subconscious Rewiring</h4>
+                    <p>Reprogramming limiting beliefs and releasing subconscious blocks through clinical hypnotherapy.</p>
                   </div>
                 </div>
               </div> */}
@@ -116,91 +116,148 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* ===== PHILOSOPHY & VALUES ===== */}
-      <section className="philosophy-section">
+      {/* ===== WHO WE ARE & MISSION / VISION ===== */}
+      <section className="who-we-are-section">
         <div className="container">
-          <div className="section-header">
-            <span className="section-subtitle">Core Philosophy</span>
-            <h2 className="section-title">The Sacred Principles That Guide Us</h2>
-            <p className="section-desc">
-              Every breath, touch, and movement is held within a container of unconditional presence,
-              reverence, and scientific mindfulness.
-            </p>
-          </div>
+          <div className="who-we-are-grid">
+            <div className="who-we-are-text">
+              <span className="section-subtitle">Who We Are</span>
+              <h2 className="section-title" style={{ textAlign: "left" }}>
+                Dedicated to Inner Peace & Personal Transformation
+              </h2>
+              <p className="lead-text">
+                ReikiHealing is a holistic wellness practice dedicated to creating a peaceful and supportive space for self-exploration, relaxation, and personal transformation.
+              </p>
+              <p>
+                We believe that taking time to understand ourselves is an important part of living a more mindful and balanced life. Our approach brings together traditional Reiki practices, guided hypnotic techniques, subconscious exploration, and Shamanic-inspired spiritual work to offer different pathways for personal reflection.
+              </p>
+              <p>
+                Whether you are looking for a moment of calm, a deeper connection with yourself, or a meaningful spiritual experience, we welcome you to explore the approach that resonates with you.
+              </p>
 
-          <div className="values-grid">
-            <div className="value-card">
-              <div className="value-number">01</div>
-              <h3>Holistic Wholeness</h3>
-              <p>
-                We do not view you as broken. Healing is not fixing; it is removing what obscures
-                your natural brilliance and radiance.
-              </p>
+              <div className="mission-vision-grid">
+                <div className="mission-vision-card">
+                  <div className="mv-icon">🌿</div>
+                  <h3>Our Mission</h3>
+                  <p>
+                    Our mission is to make holistic wellness experiences accessible, compassionate, and meaningful. We aim to help individuals create space for relaxation, self-awareness, and personal growth through respectful, individualised sessions.
+                  </p>
+                </div>
+
+                <div className="mission-vision-card">
+                  <div className="mv-icon">✨</div>
+                  <h3>Our Vision</h3>
+                  <p>
+                    We envision a world where people feel empowered to pause, listen to their inner selves, and approach life&apos;s challenges with greater awareness, compassion, and intention.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="value-card">
-              <div className="value-number">02</div>
-              <h3>Sacred Safety</h3>
-              <p>
-                Our sanctuary provides a deeply grounding, confidential space where vulnerability
-                is honored and deep somatic release can occur safely.
-              </p>
-            </div>
-            <div className="value-card">
-              <div className="value-number">03</div>
-              <h3>Empowerment First</h3>
-              <p>
-                You are your own ultimate healer. We equip you with self-care rituals, breathwork,
-                and energetic hygiene techniques for lifelong independence.
-              </p>
+
+            <div className="who-we-are-images">
+              <div className="who-image-main">
+                <Image
+                  src="/energy-healing.jpg"
+                  alt="Restorative energy healing and reiki practice"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 500px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <div className="who-image-secondary">
+                <Image
+                  src="/treatments-6-1.webp"
+                  alt="Mindful sound and meditation therapy"
+                  fill
+                  sizes="(max-width: 1024px) 80vw, 380px"
+                  style={{ objectFit: "cover" }}
+                />
+              </div>
+              <div className="who-floating-badge">
+                ✦ Mind, Body & Spirit In Harmony
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ===== SANCTUARY PREVIEW SECTION ===== */}
-      <section className="sanctuary-section">
+      {/* ===== OUR CORE VALUES ===== */}
+      <section className="core-values-section">
         <div className="container">
-          <div className="sanctuary-grid">
-            <div className="sanctuary-text">
-              <span className="section-subtitle">Our Healing Space</span>
-              <h2 className="section-title" style={{ textAlign: "left" }}>
-                A Peaceful Haven Designed for Stillness
-              </h2>
-              <p>
-                Nestled away from city clamor, the Inner Healing Sanctuary features warm organic textiles,
-                aromatherapeutic Himalayan salt lamps, therapeutic crystal sound bowls, and natural
-                sunlight that nurtures tranquility from the second you step through our doors.
-              </p>
-              <ul className="sanctuary-features">
-                <li>✦ Acoustic sound-dampened private treatment suites</li>
-                <li>✦ Organic botanical herbal teas post-session</li>
-                <li>✦ Gemstone-infused mats and crystal energy grids</li>
-                <li>✦ Individualized vibrational sound tuning</li>
-              </ul>
-              <Link href="/contact" className="btn-primary" style={{ marginTop: "24px" }}>
-                Schedule Studio Visit ✦
-              </Link>
+          <div className="section-header">
+            <span className="section-subtitle">What Guides Us</span>
+            <h2 className="section-title">Our Core Values</h2>
+            <p className="section-desc">
+              The foundational intentions and heartfelt principles that shape every session, interaction, and healing container.
+            </p>
+          </div>
+
+          <div className="core-values-cards-grid">
+            <div className="core-val-card">
+              <div className="core-val-num">01.</div>
+              <h3>Compassion</h3>
+              <p>Meeting every individual with kindness, empathy, and respect.</p>
             </div>
 
-            <div className="sanctuary-images">
-              <div className="sanctuary-img-box img-1">
-                <Image
-                  src="/energy-healing.jpg"
-                  alt="Reiki Healing in Sanctuary"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 300px"
-                  style={{ objectFit: "cover" }}
-                />
+            <div className="core-val-card">
+              <div className="core-val-num">02.</div>
+              <h3>Authenticity</h3>
+              <p>Creating an honest and welcoming healing experience.</p>
+            </div>
+
+            <div className="core-val-card">
+              <div className="core-val-num">03.</div>
+              <h3>Mindfulness</h3>
+              <p>Encouraging presence, reflection, and a deeper connection with oneself.</p>
+            </div>
+
+            <div className="core-val-card">
+              <div className="core-val-num">04.</div>
+              <h3>Personal Growth</h3>
+              <p>Supporting each person&apos;s unique process of self-discovery.</p>
+            </div>
+
+            <div className="core-val-card">
+              <div className="core-val-num">05.</div>
+              <h3>Respect</h3>
+              <p>Honouring personal boundaries, beliefs, and individual choices.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== OUR APPROACH TO HEALING ===== */}
+      <section className="approach-section">
+        <div className="container">
+          <div className="approach-grid">
+            <div className="approach-image-wrap">
+              <Image
+                src="/treating-patient.jpg"
+                alt="Therapeutic reiki and subconscious healing session"
+                fill
+                sizes="(max-width: 1024px) 100vw, 500px"
+                style={{ objectFit: "cover" }}
+              />
+            </div>
+
+            <div className="approach-text">
+              <span className="section-subtitle">Personalized Care</span>
+              <h2 className="section-title" style={{ textAlign: "left" }}>
+                Our Approach to Healing
+              </h2>
+              <p>
+                At ReikiHealing, we recognise that well-being is personal and that no single approach suits everyone. Our sessions are designed to offer a supportive environment for relaxation and reflection, with practices selected according to your preferences and intentions.
+              </p>
+
+              <div className="approach-disclaimer-box">
+                <p>
+                  We encourage open communication and realistic expectations throughout your experience. Our holistic services are complementary wellness practices and are not a substitute for medical or mental health diagnosis or treatment.
+                </p>
               </div>
-              <div className="sanctuary-img-box img-2">
-                <Image
-                  src="/person-conducting.jpg"
-                  alt="Yoga Movement in Studio"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 300px"
-                  style={{ objectFit: "cover" }}
-                />
-              </div>
+
+              <Link href="/services" className="btn-primary" style={{ display: "inline-block", marginTop: "10px" }}>
+                Explore Services & Courses ✦
+              </Link>
             </div>
           </div>
         </div>
@@ -211,8 +268,9 @@ export default function AboutPage() {
         <div className="cta-content">
           <h2>Ready to Step Into Peace & Vitality?</h2>
           <p>
-            Reserve your personal 1-on-1 energy alignment or private yoga session.
-            We look forward to welcoming you into our healing circle.
+            Explore our services and discover a supportive space for relaxation, self-awareness, and personal growth. Book Your Session
+
+
           </p>
           <a href="tel:250-574-1442" className="btn-white">
             Call Now: 250-574-1442 📞

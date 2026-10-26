@@ -655,7 +655,9 @@ export default function ServicesPage() {
         <div className="cta-content">
           <h2>Ready to Begin Your Healing Journey?</h2>
           <p>
-            Whether you are booking a restorative $100/hr Reiki session, a distant home blessing, a 3-hour Shamanic journey, or embarking on your Level 1–4 Reiki certification path, we are honored to support your path.
+            Explore our services and discover a supportive space for relaxation, self-awareness, and personal growth. Book Your Session
+
+
           </p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap", marginTop: "24px", alignItems: "center" }}>
             <a href="tel:250-574-1442" className="btn-white" style={{ fontSize: "1.05rem", padding: "14px 28px" }}>

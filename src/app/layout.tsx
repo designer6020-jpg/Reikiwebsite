@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sella Yoga & Reiki - Holistic Healing & Life Coaching",
+  title: "Inner Healing School of Reiki - Holistic Energy Healing & Hypnotherapy",
   description:
-    "Transform your life with yoga, reiki energy healing, chakra realignment, and holistic life coaching. Find inner peace and balance with Sella's healing practices.",
+    "Transform your life with Usui Reiki energy healing, clinical hypnotherapy, Hypno-Reiki integration, shamanic ceremonies, and accredited Reiki certification courses.",
   keywords:
-    "yoga, reiki, energy healing, chakra, meditation, life coaching, holistic wellness",
+    "reiki, energy healing, hypnotherapy, hypno-reiki, shamanic reiki, reiki courses, chakra balancing, space clearing, holistic wellness",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

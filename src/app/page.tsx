@@ -6,62 +6,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const reikiTabs = [
-  {
-    id: "reiki",
-    label: "Reiki energy healing",
-    icon: "cmsms-demo-icon-reiki1",
-    title: "Reiki energy healing",
-    text: "Our life coaching integrates Reiki energy healing to address both your mindset and energy. This unique blend helps release blocks, align your energy, and empower you to achieve lasting growth and transformation.",
-    image: "/home-1-3.jpg",
-    buttonText: "Find out more",
-  },
-  {
-    id: "meditative",
-    label: "Deep meditative journeys",
-    icon: "cmsms-demo-icon-meditation-1",
-    title: "Deep meditative journeys",
-    text: "Reiki helps you gently release stored emotional tension, reconnect with your inner wisdom, and move toward deeper self-trust, clarity, and peace.",
-    image: "/home-1-4.jpg",
-    buttonText: "Explore sessions",
-  },
-  {
-    id: "emotional",
-    label: "Intuitive emotional healing",
-    icon: "cmsms-demo-icon-meditation",
-    title: "Emotional healing support",
-    text: "Reiki helps you gently release stored emotional tension, reconnect with your inner wisdom, and move toward deeper self-trust, clarity, and peace.",
-    image: "/home-1-5.jpg",
-    buttonText: "Explore sessions",
-  },
-  {
-    id: "mindset",
-    label: "Mindset transformation",
-    icon: "cmsms-demo-icon-emotional-regulation",
-    title: "Mindset transformation",
-    text: "Through mindful energetic alignment, you can shift limiting patterns, improve emotional resilience, and create a stronger foundation for meaningful growth.",
-    image: "/home-1-6.jpg",
-    buttonText: "Book a consultation",
-  },
-  {
-    id: "spirituality",
-    label: "The science of spirituality",
-    icon: "cmsms-demo-icon-icon-4",
-    title: "The science of spirituality",
-    text: "This practice blends intuitive guidance with grounded self-awareness, helping you explore spirituality in a practical, empowering, and deeply calming way.",
-    image: "/home-1-7.jpg",
-    buttonText: "Learn more",
-  },
-  {
-    id: "intimacy",
-    label: "Relational intimacy building",
-    icon: "cmsms-demo-icon-compassion-1",
-    title: "Relational intimacy building",
-    text: "By clearing emotional blocks and enhancing inner connection, Reiki supports healthier relationships, deeper presence, and more authentic intimacy in life and love.",
-    image: "/home-1-8.jpg",
-    buttonText: "Start your journey",
-  },
-];
+
 
 const galleryImages = [
   {
@@ -176,13 +121,10 @@ const testimonials = [
 ];
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState(reikiTabs[0].id);
   const [selectedImage, setSelectedImage] = useState<
     (typeof galleryImages)[number] | null
   >(null);
   const testimonialsRef = useRef<HTMLDivElement | null>(null);
-  const activeTabData =
-    reikiTabs.find((tab) => tab.id === activeTab) ?? reikiTabs[0];
 
   const scrollTestimonials = (direction: "next" | "prev") => {
     const container = testimonialsRef.current;
@@ -210,12 +152,15 @@ export default function Home() {
       <section className="hero" id="home">
         <div className="hero-content">
           <div className="hero-text">
-            <div className="hero-badge">Holistic Wellness</div>
+            <div className="hero-badge">Reconnect With Your Inner Self</div>
             <h1 className="hero-title">
               <span className="highlight">
-                Heal, grow and thrive with Reiki and Life Coaching
+                Restore Balance. Embrace Peace. Begin Your Healing Journey.
               </span>
             </h1>
+            <p className="hero-desc">
+              Discover a deeper connection with yourself through Reiki energy healing, subconscious exploration, and sacred spiritual practices. At ReikiHealing, we offer a compassionate space to pause, release emotional tension, and reconnect with your inner balance.
+            </p>
 
             <div className="hero-buttons">
               <Link href="/services" className="btn-primary">
@@ -231,7 +176,7 @@ export default function Home() {
                 <div className="hero-stat-label">Happy Clients</div>
               </div>
               <div className="hero-stat">
-                <div className="hero-stat-number">10+</div>
+                <div className="hero-stat-number">15+</div>
                 <div className="hero-stat-label">Years Experience</div>
               </div>
               <div className="hero-stat">
@@ -252,16 +197,16 @@ export default function Home() {
               />
             </div>
             <div className="hero-float-card top-card">
-              <div className="float-icon">🧘</div>
+              <div className="float-icon">✨</div>
               <div>
-                <div className="float-text">Yoga Workshop</div>
-                <div className="float-subtext">Next: Saturday 9AM</div>
+                <div className="float-text">Reiki Certification</div>
+                <div className="float-subtext">Levels 1 to 4 Training</div>
               </div>
             </div>
             <div className="hero-float-card bottom-card">
-              <div className="float-icon">✨</div>
+              <div className="float-icon">🌸</div>
               <div>
-                <div className="float-text">Energy Healing</div>
+                <div className="float-text">Hypno-Reiki Healing</div>
                 <div className="float-subtext">Call 250-574-1442</div>
               </div>
             </div>
@@ -270,7 +215,7 @@ export default function Home() {
       </section>
 
       {/* ===== SERVICES SECTION ===== */}
-      <section className="services" id="services">
+      {/*<section className="services" id="services">
         <div className="section-header">
           <span className="flex items-center justify-center mb-4">
             <svg
@@ -320,7 +265,7 @@ export default function Home() {
             invites.
           </h2>
         </div>
-      </section>
+      </section>*/}
 
       {/* ===== ENERGY HEALING SECTION ===== */}
       <section className="energy-healing" id="healing">
@@ -350,101 +295,117 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="services bg-transparent" id="services">
+        <div className="services bg-transparent" id="why-choose">
           <div className="section-header">
-            <span className="section-tag">benefits </span>
-            <h2 className="section-title-big">Reiki Energy Healing</h2>
+            <span className="section-tag">Why Choose Us</span>
+            <h2 className="section-title-big">Why Choose ReikiHealing?</h2>
           </div>
-          <div className="services-grid">
-            <div className="service-card">
-              <div className="service-icon">
-                <Image src="/body-icon.png" alt="Body" fill />
+          <div className="why-choose-grid">
+            <div className="why-choose-card">
+              <div className="why-choose-icon-wrap" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                </svg>
               </div>
-              <h3 className="service-title">Body</h3>
-              <p className="service-desc">Balance heart rate.</p>
-              <p className="service-desc">Relieve pain and muscle tension.</p>
-              <p className="service-desc">Balance blood pressure & cortisol.</p>
-              <p className="service-desc">Detoxify naturally.</p>
-              <p className="service-desc">Improve sleep quality.</p>
+              <h3 className="why-choose-title">A Compassionate, Personal Approach</h3>
+              <p className="why-choose-desc">
+                Every individual is different. Our sessions are shaped around your intentions, comfort, and personal journey.
+              </p>
             </div>
-            <div className="service-card">
-              <div className="service-icon">
-                <Image src="/mind-icon.png" alt="Mind" fill />
+
+            <div className="why-choose-card">
+              <div className="why-choose-icon-wrap" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="3" />
+                  <path d="M12 2v3M12 19v3M4.93 4.93l2.12 2.12M16.95 16.95l2.12 2.12M2 12h3M19 12h3M4.93 19.07l2.12-2.12M16.95 7.05l2.12-2.12" />
+                </svg>
               </div>
-              <h3 className="service-title">Mind</h3>
-              <p className="service-desc">Discover Inner Peace.</p>
-              <p className="service-desc">Release negativity.</p>
-              <p className="service-desc">Build resilience.</p>
-              <p className="service-desc">Let go of habits.</p>
-              <p className="service-desc">Embrace stillness.</p>
+              <h3 className="why-choose-title">Holistic Practices</h3>
+              <p className="why-choose-desc">
+                Explore complementary approaches that bring together relaxation, energy work, guided introspection, and spiritual reflection.
+              </p>
             </div>
-            <div className="service-card">
-              <div className="service-icon">
-                <Image src="/soul-icon.png" alt="Soul" fill />
+
+            <div className="why-choose-card">
+              <div className="why-choose-icon-wrap" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  <path d="M9 12l2 2 4-4" />
+                </svg>
               </div>
-              <h3 className="service-title">Soul</h3>
-              <p className="service-desc">Connect with your intuition.</p>
-              <p className="service-desc">Listen to your soul’s call.</p>
-              <p className="service-desc">Rediscover faith.</p>
-              <p className="service-desc">Live with intention.</p>
-              <p className="service-desc">Embrace your True Nature.</p>
+              <h3 className="why-choose-title">A Safe and Respectful Space</h3>
+              <p className="why-choose-desc">
+                Your comfort, boundaries, and personal beliefs matter. We aim to create a welcoming environment without judgment or pressure.
+              </p>
+            </div>
+
+            <div className="why-choose-card">
+              <div className="why-choose-icon-wrap" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+                </svg>
+              </div>
+              <h3 className="why-choose-title">Your Journey, Your Pace</h3>
+              <p className="why-choose-desc">
+                Take time to explore your needs, reflect on your experiences, and build practices that support your personal well-being.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="reframing" id="reiki">
+      {/* ===== HOW IT WORKS SECTION ===== */}
+      <section className="how-it-works-section" id="how-it-works">
         <div className="section-header">
-          <h2 className="section-title-big">
-            Reframing the unknown from scary to exhilarating
-          </h2>
+          <span className="section-tag">How It Works</span>
+          <h2 className="section-title-big">How It Works</h2>
         </div>
-        <div className="reiki-showcase">
-          <div
-            className="reiki-showcase__list"
-            role="tablist"
-            aria-label="Reiki healing tabs"
-          >
-            {reikiTabs.map((tab) => (
-              <button
-                key={tab.id}
-                type="button"
-                role="tab"
-                aria-selected={activeTab === tab.id}
-                className={`reiki-showcase__item ${activeTab === tab.id ? "is-active" : ""}`}
-                onClick={() => setActiveTab(tab.id)}
-              >
-                <span
-                  className={`cmsmasters-tab-icon ${tab.icon} icon-align-left`}
-                  aria-hidden="true"
-                />
-                <span>{tab.label}</span>
-              </button>
-            ))}
+        <div className="how-it-works-grid">
+          <div className="how-it-works-card">
+            <div className="how-it-works-top">
+              <span className="how-it-works-num">01.</span>
+              <div className="how-it-works-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
+              </div>
+            </div>
+            <h3 className="how-it-works-title">Connect With Us</h3>
+            <p className="how-it-works-desc">
+              Share your interests, intentions, and the kind of support you are looking for.
+            </p>
           </div>
 
-          <div
-            className="reiki-showcase__visual"
-            role="tabpanel"
-            aria-live="polite"
-          >
-            <div className="reiki-showcase__image-frame">
-              <Image
-                src={activeTabData.image}
-                alt={activeTabData.title}
-                fill
-                sizes="(max-width: 768px) 100vw, 640px"
-                style={{ objectFit: "cover" }}
-              />
+          <div className="how-it-works-card">
+            <div className="how-it-works-top">
+              <span className="how-it-works-num">02.</span>
+              <div className="how-it-works-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                </svg>
+              </div>
             </div>
+            <h3 className="how-it-works-title">Choose Your Session</h3>
+            <p className="how-it-works-desc">
+              Explore our services and select an approach that feels right for you.
+            </p>
+          </div>
 
-            <div className="reiki-showcase__content">
-              <h3 className="reiki-showcase__heading">{activeTabData.title}</h3>
-              <p className="reiki-showcase__text">{activeTabData.text}</p>
-              <Link href="/services" className="reiki-showcase__button">
-                {activeTabData.buttonText.toUpperCase()} <span>•</span>
-              </Link>
+          <div className="how-it-works-card">
+            <div className="how-it-works-top">
+              <span className="how-it-works-num">03.</span>
+              <div className="how-it-works-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+                </svg>
+              </div>
             </div>
+            <h3 className="how-it-works-title">Begin Your Journey</h3>
+            <p className="how-it-works-desc">
+              Settle into your session, take time for yourself, and reflect on your experience.
+            </p>
           </div>
         </div>
       </section>
@@ -452,23 +413,17 @@ export default function Home() {
       <section className="chakra-healing">
         <div className="chakra-healing-content">
           <div className="chakra-healing-text">
-            <span className="section-tag">Reiki Level 1 Course</span>
+            <span className="section-tag">Reiki Level 1</span>
             <h2 className="section-title">
-              Holistic Healing Through Reiki Energy
+              Reiki Level 1*
             </h2>
             <p>
-              Discover the transformative power of Reiki in our Level 1 Course.
-              Learn to harmonize mind, body, and soul while promoting emotional
-              balance, physical health, and mental clarity.
-            </p>
-            <p>
-              This course will teach you to clear energy blockages and restore
-              life-force energy, empowering you to bring healing and harmony
-              into your daily life.
+              Students will be introduced to the history of Usui Mikao's teachings. Five Reiki principles will be taught. Proper hand positions will be shown for self healing or giving a treatment to others. Students will learn how to channel the Reiki energy. We will talk about Reiki crisis. Level 1 Attunement will be given.  Manual is included in the course. Students will also receive a certificate upon complition of the course. We will also talk about CRA forms and Usui Shiki Ryoho Lineage.
             </p>
 
-            <Link href="/contact" className="btn-primary">
-              I Want to Learn Reiki
+
+            <Link href="/services#sessions-section" className="btn-primary">
+              Explore Reiki Level 1
             </Link>
           </div>
           <div className="chakra-healing-image">
@@ -485,29 +440,51 @@ export default function Home() {
           <div className="chakra-healing-image">
             <Image
               src="/home-1-10.webp"
-              alt="Chakra healing session"
+              alt="Hypno-Reiki and Subconscious Healing session"
               fill
               sizes="(max-width: 768px) 100vw, 550px"
               style={{ objectFit: "cover" }}
             />
           </div>
           <div className="chakra-healing-text">
-            <span className="section-tag">Life Coaching Course</span>
-            <h2 className="section-title">Create a Life That Inspires You</h2>
+            <span className="section-tag">Reiki Level 2 </span>
+            <h2 className="section-title">Reiki Level 2 *</h2>
             <p>
-              Step into your fullest potential with our Transformational Life
-              Coaching course. Heal, grow, and make meaningful changes to align
-              with the highest vision of yourself.
+              Student must have completed their Reiki level 1 in order to take level 2.
             </p>
             <p>
-              Let go of overwhelm, break through limiting beliefs, and overcome
-              the barriers holding you back from achieving freedom, success,
-              abundance, and love.
+              Students will learn about the 3 Reiki sacred healing symbols and how to draw them. Their meanings and uses in person and how to send long distance healing. Hands on practicum. Reiki meditation. Chakra cleaning and cleaning your environment of negative energy. Scanning and protection. This course will explore more in depth in assisting students removal of unwanted habits and how to empower your goals with Reiki. Reiki level 2 Attunement will be given. Manual is included. Certificate will be provided upon completion of the course.
             </p>
 
-            <Link href="/contact" className="btn-primary">
-              I Want to Learn Reiki
+            <Link href="/services#sessions-section" className="btn-primary">
+              Explore Reiki Level 2
             </Link>
+          </div>
+        </div>
+        <div className="chakra-healing-content space-100">
+          <div className="chakra-healing-text">
+            <span className="section-tag">Reiki Level 3</span>
+            <h2 className="section-title">
+              Reiki Level 3*
+            </h2>
+            <p>
+              tudents must have completed level 1 and 2 in order to take level three.
+            </p>
+            <p>In level 3 brief review of level 1 and 2  and question are answered.
+              learn Usui Master symbol, practice drawing and how to utilize it. Learn how to make and activate a Reiki crystal grid for healing and manifesting. learn how to use pendulum for healing and guidance. Understanding Aura and Aura colors, Aura cleaning and psychic surgery techniques. Also teach Reiki healing with Crystal and Gemstones. Reiki level 3 attunement done. Introduction to basic animal Reiki. 2 Reiki guided meditations are done. Discuss CRA membership criteria and paperwork. Level 3 certificate provided. </p>
+
+            <Link href="/services#sessions-section" className="btn-primary">
+              Explore Reiki Level 3
+            </Link>
+          </div>
+          <div className="chakra-healing-image">
+            <Image
+              src="/treatments-8-1.webp"
+              alt="Reiki Level 3 master healing session"
+              fill
+              sizes="(max-width: 768px) 100vw, 550px"
+              style={{ objectFit: "cover" }}
+            />
           </div>
         </div>
       </section>
@@ -742,15 +719,12 @@ export default function Home() {
         <div className="cta-content">
           <h2>Begin Your Healing Journey Today</h2>
           <p>
-            Take the first step towards restored balance and inner peace. Book a
-            personalized session or enroll in certified training with Inner Healing
-            School of Reiki.
+            Explore our services and discover a supportive space for relaxation, self-awareness, and personal growth.
+            Book Your Session
           </p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap", marginTop: "20px" }}>
-            <Link href="/contact" className="btn-white">
-              Book a Session ✦
-            </Link>
-            <a href="tel:250-574-1442" className="btn-outline" style={{ borderColor: "#ffffff", color: "#ffffff" }}>
+
+            <a href="tel:250-574-1442" className="btn-white">
               Call 250-574-1442 📞
             </a>
           </div>
