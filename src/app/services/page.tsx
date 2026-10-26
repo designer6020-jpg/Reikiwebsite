@@ -501,10 +501,10 @@ export default function ServicesPage() {
       )}
 
       {/* ===== ACADEMY PILLARS ===== */}
-      <section className="academy-pillars-section">
+      {/* <section className="academy-pillars-section">
         <div className="container">
           <div className="section-header">
-            <span className="section-subtitle">Why Train With Sella</span>
+
             <h2 className="section-title">A Sacred & Supportive Learning Environment</h2>
             <p className="section-desc">
               Whether you are discovering energy healing for personal empowerment or building a professional practice, our courses provide unbroken lineage, personal attention, and lifelong community.
@@ -545,14 +545,14 @@ export default function ServicesPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ===== COMPLETE INVESTMENT & COMPARISON TABLE ===== */}
       <section className="comparison-section" id="comparison">
         <div className="container">
           <div className="section-header">
             <span className="section-subtitle">Complete Fee Matrix</span>
-            <h2 className="section-title">All Offerings & Course Tuition</h2>
+            <h2 className="section-title">All Offerings Sessions</h2>
             <p className="section-desc">
               Transparent, straightforward investment details for all private therapeutic sessions, space ceremonies, and accredited Reiki academy levels.
             </p>
@@ -656,8 +656,6 @@ export default function ServicesPage() {
           <h2>Ready to Begin Your Healing Journey?</h2>
           <p>
             Explore our services and discover a supportive space for relaxation, self-awareness, and personal growth. Book Your Session
-
-
           </p>
           <div style={{ display: "flex", gap: "16px", justifyContent: "center", flexWrap: "wrap", marginTop: "24px", alignItems: "center" }}>
             <a href="tel:250-574-1442" className="btn-white" style={{ fontSize: "1.05rem", padding: "14px 28px" }}>
