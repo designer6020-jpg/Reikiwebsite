@@ -272,7 +272,7 @@ export default function Home() {
         <div className="energy-content">
           <div className="energy-image">
             <Image
-              src="/home-1-2.webp"
+              src="/reiki-master.jpg"
               alt="Woman receiving reiki energy healing treatment"
               fill
               sizes="(max-width: 768px) 100vw, 550px"
