@@ -34,7 +34,7 @@ export default function AboutPage() {
             <div className="about-image-column">
               <div className="about-large-image-wrapper">
                 <Image
-                  src="/about-me.jpg"
+                  src="/about-me.png"
                   alt="Darshan in serene meditative state"
                   fill
                   sizes="(max-width: 768px) 100vw, 500px"
@@ -232,7 +232,7 @@ export default function AboutPage() {
           <div className="approach-grid">
             <div className="approach-image-wrap">
               <Image
-                src="/treating-patient.jpg"
+                src="/shamanic-healing.png"
                 alt="Therapeutic reiki and subconscious healing session"
                 fill
                 sizes="(max-width: 1024px) 100vw, 500px"

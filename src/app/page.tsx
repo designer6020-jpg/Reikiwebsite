@@ -26,7 +26,7 @@ const galleryImages = [
     alt: "Crystal healing",
   },
   {
-    src: "/treating-patient.jpg",
+    src: "/person-conducting.jpg",
     alt: "Group yoga session",
   },
 ];
@@ -155,11 +155,11 @@ export default function Home() {
             <div className="hero-badge">Reconnect With Your Inner Self</div>
             <h1 className="hero-title">
               <span className="highlight">
-                Restore Balance. Embrace Peace. Begin Your Healing Journey.
+                Holistic Healing for Mind, Body, and Spirit
               </span>
             </h1>
             <p className="hero-desc">
-              Discover a deeper connection with yourself through Reiki energy healing, subconscious exploration, and sacred spiritual practices. At ReikiHealing, we offer a compassionate space to pause, release emotional tension, and reconnect with your inner balance.
+              When emotional heaviness or physical ailments take hold, it is often a sign that your body's vital energy is out of alignment. My practice focuses on clearing stagnant energy and restoring structural harmony to your mental, emotional, and physical landscape. By addressing the root energetic causes of stress and anxiety, we create a nurturing space for your nervous system to reset, your spirit to lift, and your body’s natural self-healing mechanisms to activate.
             </p>
 
             <div className="hero-buttons">
@@ -188,7 +188,7 @@ export default function Home() {
           <div className="hero-image">
             <div className="hero-image-wrapper">
               <Image
-                src="/home-1-1.webp"
+                src="/person-conducting.jpg"
                 alt="Woman meditating in lotus pose wearing burgundy yoga outfit"
                 fill
                 sizes="(max-width: 768px) 100vw, 480px"
@@ -371,9 +371,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <h3 className="how-it-works-title">Connect With Us</h3>
+            <h3 className="how-it-works-title">Energy Clearing & Restoration</h3>
             <p className="how-it-works-desc">
-              Share your interests, intentions, and the kind of support you are looking for.
+              Gently releasing energetic blockages to bring your mental clarity, emotional health, and physical body into complete harmony.
             </p>
           </div>
 
@@ -386,9 +386,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <h3 className="how-it-works-title">Choose Your Session</h3>
+            <h3 className="how-it-works-title">Root-Cause Relief</h3>
             <p className="how-it-works-desc">
-              Explore our services and select an approach that feels right for you.
+              Moving past temporary fixes to address the underlying energetic imbalances behind physical ailments and daily stress.
             </p>
           </div>
 
@@ -402,9 +402,9 @@ export default function Home() {
                 </svg>
               </div>
             </div>
-            <h3 className="how-it-works-title">Begin Your Journey</h3>
+            <h3 className="how-it-works-title">Complete Mind-Body-Spirit Synthesis</h3>
             <p className="how-it-works-desc">
-              Settle into your session, take time for yourself, and reflect on your experience.
+              Creating a deeply restorative sanctuary to soothe anxiety, quiet the mind, and awaken your natural vitality.
             </p>
           </div>
         </div>
@@ -415,7 +415,7 @@ export default function Home() {
           <div className="chakra-healing-text">
             <span className="section-tag">Reiki Level 1</span>
             <h2 className="section-title">
-              Reiki Level 1*
+              The Foundation
             </h2>
             <p>
               Students will be introduced to the history of Usui Mikao's teachings. Five Reiki principles will be taught. Proper hand positions will be shown for self healing or giving a treatment to others. Students will learn how to channel the Reiki energy. We will talk about Reiki crisis. Level 1 Attunement will be given.  Manual is included in the course. Students will also receive a certificate upon complition of the course. We will also talk about CRA forms and Usui Shiki Ryoho Lineage.
@@ -439,7 +439,7 @@ export default function Home() {
         <div className="chakra-healing-content space-100">
           <div className="chakra-healing-image">
             <Image
-              src="/home-1-10.webp"
+              src="/wellness1.jpeg"
               alt="Hypno-Reiki and Subconscious Healing session"
               fill
               sizes="(max-width: 768px) 100vw, 550px"
@@ -448,7 +448,7 @@ export default function Home() {
           </div>
           <div className="chakra-healing-text">
             <span className="section-tag">Reiki Level 2 </span>
-            <h2 className="section-title">Reiki Level 2 *</h2>
+            <h2 className="section-title">The Practitioner</h2>
             <p>
               Student must have completed their Reiki level 1 in order to take level 2.
             </p>
@@ -465,7 +465,7 @@ export default function Home() {
           <div className="chakra-healing-text">
             <span className="section-tag">Reiki Level 3</span>
             <h2 className="section-title">
-              Reiki Level 3*
+              The Master
             </h2>
             <p>
               tudents must have completed level 1 and 2 in order to take level three.

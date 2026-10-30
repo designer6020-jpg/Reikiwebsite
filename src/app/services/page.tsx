@@ -36,7 +36,7 @@ export default function ServicesPage() {
       rate: "/ session",
       duration: "75 – 90 Minutes",
       badge: "Mind & Energy Synthesis",
-      image: "/treatments-6-1.webp",
+      image: "/hypno-reiki-Integration.png",
       desc: "A synergistic therapeutic integration combining guided trance hypnosis with high-vibrational Usui Reiki energy. While your conscious mind relaxes into an open theta state, healing frequencies penetrate straight to the cellular and subconscious levels to dissolve deep-seated energetic resistance.",
       benefits: [
         "Unlocks the subconscious mind while soothing the physical energy field",
@@ -53,7 +53,7 @@ export default function ServicesPage() {
       rate: "/ session",
       duration: "75 – 90 Minutes",
       badge: "Subconscious Rewiring",
-      image: "/treating-patient.jpg",
+      image: "/hypnotherapy.png",
       desc: "A targeted, transformative hypnotherapy session dedicated to subconscious reprogramming. By communicating directly with your subconscious blueprint, we dismantle outdated narratives, resolve past emotional trauma, eliminate stress triggers, and install resilient confidence.",
       benefits: [
         "Pinpoints and resolves emotional root causes rather than surface symptoms",
@@ -70,7 +70,7 @@ export default function ServicesPage() {
       rate: "/ session (3 hours)",
       duration: "3 Hours Intensive",
       badge: "3-Hour Deep Immersion",
-      image: "/hero-meditation1.jpg",
+      image: "/shamanic-healing.png",
       desc: "An immersive 3-hour sacred healing container merging authentic Usui Reiki channeling with timeless Earth-honoring shamanic rituals. Through sacred smoke cleansing, rhythmic drumming, energetic cord-cutting, and vital soul retrieval, heavy energies are released and your spirit is profoundly renewed.",
       benefits: [
         "3 dedicated hours of deep, unhurried ceremonial healing space",
@@ -103,7 +103,7 @@ export default function ServicesPage() {
   const reikiCourses = [
     {
       level: "Level 1",
-      name: "The Awakening (First Degree)",
+      name: "The Foundation",
       duration: "1 Day Course",
       price: "$300",
       priceNote: "Complete 1-day training & attunement",
@@ -123,7 +123,7 @@ export default function ServicesPage() {
     },
     {
       level: "Level 2",
-      name: "The Transcendence (Second Degree)",
+      name: "The Practitioner",
       duration: "1 Day Course",
       price: "$300",
       priceNote: "Complete 1-day intensive certification",
@@ -143,7 +143,7 @@ export default function ServicesPage() {
     },
     {
       level: "Level 3",
-      name: "Master Practitioner (Third Degree)",
+      name: "The Master",
       duration: "2 Days Course",
       price: "$600",
       priceNote: "Comprehensive 2-day immersion",
@@ -163,7 +163,7 @@ export default function ServicesPage() {
     },
     {
       level: "Level 4",
-      name: "Master Teacher / Shihan (Fourth Degree)",
+      name: "The Teacher",
       duration: "3 Days Course",
       price: "$900",
       priceNote: "Complete 3-day teacher training",
